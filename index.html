@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | TastyBite</title>
+  <style>
+    body { margin:0; font-family:sans-serif; background:#fff9f5; color:#333; }
+    nav { background:#ff7043; padding:15px; text-align:center; position:sticky; top:0; z-index:999; }
+    nav a { margin:0 15px; color:#fff; text-decoration:none; font-weight:bold; }
+    nav a:hover { color:#ffe0b2; }
+    .hero { background:url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat; height:300px; display:flex; align-items:center; justify-content:center; text-align:center; color:#fff; text-shadow:1px 1px 5px #000; }
+    .hero h1 { font-size:2.5em; background:rgba(0,0,0,0.5); padding:20px 30px; border-radius:10px; }
+    .card-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; margin-top:30px; }
+    .card { background:#fff3e0; padding:15px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
+    .card img { width:100%; border-radius:5px; margin-bottom:10px; }
+    .cta { display:inline-block; margin:30px auto; background:#ff7043; color:#fff; padding:12px 25px; border-radius:5px; text-decoration:none; font-weight:bold; }
+    footer { background:#ff7043; color:#fff; text-align:center; padding:20px; margin-top:40px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="newsletter.html">Newsletter</a>
+  </nav>
+  <header class="hero">
+    <h1>Welcome to TastyBite 🍛</h1>
+  </header>
+  <main style="max-width:1000px; margin:auto; padding:40px 20px;">
+    <section style="text-align:center;">
+      <h2 style="color:#ff7043;">Hello Food Lovers!</h2>
+      <p>I'm <strong>Samiya Rohman</strong>, a passionate home cook from Chattogram. TastyBite is where flavors meet family, tradition, and pure joy.</p>
+      <a class="cta" href="recipes.html">Explore Recipes</a>
+    </section>
+    <section>
+      <h2 style="text-align:center; margin-bottom:20px;">🌟 Featured Flavors</h2>
+      <div class="card-grid">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1606755962773-0a6eb1df9c66" alt="Beef Tehari">
+          <h3>Beef Tehari</h3>
+          <p>Spiced beef & fragrant rice layered perfectly.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1589308078056-2327f85d9718" alt="Shutki Bhuna">
+          <h3>Shutki Bhuna</h3>
+          <p>Dry fish curry with mustard oil & love.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1576866209830-4b8402f2be08" alt="Mishti Doi">
+          <h3>Mishti Doi</h3>
+          <p>Caramelized sweet yogurt — Bengali bliss!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 TastyBite by Samiya Rohman. Cooked with 💛 in Bangladesh.
+  </footer>
+</body>
+</html>
